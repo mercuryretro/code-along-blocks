@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+
+.header {
+  text-align: center;
+  color: blue;
+  width: 900px;
+  height: 100px;
+  background-color: #282c34;
+  outline: #61dafb;
+}
+.navigation {
+  display:inline;
+}
+.main {
+  text-align: center;
+  color: blue;
+  width: 900px;
+  height: 350px;
+  background-color: #282c34;
+  outline: #61dafb;
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
+}
+.subcontents {
+  background-color: aliceblue;
+  width: 200px;
+  height: 300px;
+  outline: 1px solid #282c34;
+}
